@@ -1,0 +1,1460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1DD549F5-A2C8-98CD-771F-0ADD1705E568}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/bin/Debug/</OutputPath>
+    <DefineConstants>UNITY_2022_3_22;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp/bin/Release/</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2022.3.22f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/Framework/Chartboost/Scripts/CBInPlay.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonObjectContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JTokenReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_IContractResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonValidatingReader.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ToggleButton.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaType.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/AdLoader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JPath.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_ThreadSafeStore.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonProperty.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/AdFailedToLoadEventArgs.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonDictionaryAttribute.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/MobileAdsClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JArray.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonTextWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Bson/RT_BsonWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_PreserveReferencesHandling.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/BidirectionalDictionary.cs" />
+    <Compile Include="Assets/Common/Scripts/MarginObject.cs" />
+    <Compile Include="Assets/Scripts/Main/TileRegion2.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_RegexConverter.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/IMobileAdsClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/DateTimeConverterBase.cs" />
+    <Compile Include="Assets/Common/Scripts/LimitPosition.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/ValidationEventArgs.cs" />
+    <Compile Include="Assets/Common/Scripts/VersionControl/PlatformGameVersion.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/ReflectionUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/IContractResolver.cs" />
+    <Compile Include="Assets/Common/Scripts/Guide.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/MathUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Aot/EnumerationExtension.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JTokenEqualityComparer.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/TabDialog.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonContainerAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_DictionaryWrapper.cs" />
+    <Compile Include="Assets/Common/Scripts/TabBehaviour.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/MemberSerialization.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/ILGeneratorExtensions.cs" />
+    <Compile Include="Assets/Common/Scripts/CGameState.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_StringEnumConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_EnumValues.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonArrayAttribute.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/YesNoDialog.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_ValidationEventHandler.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Bson/BsonBinaryType.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonExtensionDataAttribute.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaException.cs" />
+    <Compile Include="Assets/Common/Scripts/PrefKeys.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/AdMobManager/Demo/TestAds.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/IBannerClient.cs" />
+    <Compile Include="Assets/Lib/PrefabEvolution/Sources/EvolvePrefab.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/PauseDialog.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/DummyClient.cs" />
+    <Compile Include="Assets/Scripts/Controller/MainController.cs" />
+    <Compile Include="Assets/Common/Scripts/ListView.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_TraceJsonWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonSerializer.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/DialogOverlay.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Bson/RT_BsonReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonSerializerInternalReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_MemberSerialization.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_DynamicUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Shims/WP8/SerializationBinder.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Bson/BsonType.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/MyButton.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JEnumerable.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Bson/RT_BsonBinaryType.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/BannerClient.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/Mediation/MediationExtras.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Shims/DataContractAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ConstructorHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonConverterCollection.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_IJsonLineInfo.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_TraceJsonReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/IJsonLineInfo.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/CustomNativeTemplateAd.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonIgnoreAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonArrayAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/LinqExtensions.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/MobileAdsClient.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonPlay.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonConverterCollection.cs" />
+    <Compile Include="Assets/Lib/PrefabEvolution/Sources/PEModifications.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Shims/EnumMemberAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_ExpandoObjectConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JProperty.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_MiscellaneousUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonConvert.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/RefineCanvas.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_DateFormatHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaConstants.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/CustomNativeEventArgs.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaModel.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ScrollViewContent.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonSerializerProxy.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonPrimitiveContract.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/IRewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/MobileAds.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaException.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_ConstructorHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_ValidationUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaNode.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_LateBoundReflectionDelegateFactory.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/AdMobManager/Scripts/AdmobInterstitail.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/Utils.cs" />
+    <Compile Include="Assets/Common/Scripts/Achievements.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_ObjectConstructor.cs" />
+    <Compile Include="Assets/Common/Scripts/GotoScene.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/StringUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_DefaultReferenceResolver.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/InterstitialClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/DynamicWrapper.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_TraceLevel.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaNodeCollection.cs" />
+    <Compile Include="Assets/Scripts/Controller/MakeLevelController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonTextWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_OnErrorAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonException.cs" />
+    <Compile Include="Assets/Common/Scripts/OtherSound.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JProperty.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_Base64Encoder.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_IJEnumerable.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/TButton.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_StringUtils.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonRate.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/NotifyCollectionChangedAction.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonReader.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonValidatingReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_BsonObjectIdConverter.cs" />
+    <Compile Include="Assets/Common/Scripts/FriendAvatars.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_ImmutableCollectionsUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/MethodCall.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/IValueProvider.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/ReflectionDelegateFactory.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/RewardBasedVideoAd.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonReplay.cs" />
+    <Compile Include="Assets/Common/Scripts/DestroyAfterTime.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObjectCreationHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonSerializerInternalWriter.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/DialogController.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/AdMobManager/Scripts/AdmobVideoAds.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_JsonValueConverter.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/AdLoaderClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonSerializationException.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/DictionaryWrapper.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_DateTimeZoneHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/AddingNewEventArgs.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/XmlNodeConverter.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/UnityAdsManager/UnityAdsManager.cs" />
+    <Compile Include="Assets/Common/Scripts/CopyCamera.cs" />
+    <Compile Include="Assets/Common/Scripts/DontGoThroughThings.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_DefaultValueHandling.cs" />
+    <Compile Include="Assets/Common/Scripts/CExtension.cs" />
+    <Compile Include="Assets/Common/Scripts/Movement/CRotate.cs" />
+    <Compile Include="Assets/Common/Scripts/UIEvent.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_ITraceWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JContainer.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonWriterException.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonPropertyAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/EnumUtils.cs" />
+    <Compile Include="Assets/Common/Scripts/TimerText.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonToken.cs" />
+    <Compile Include="Assets/Common/Scripts/CPlayerPrefs.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Extras/CustomConverters/Matrix4x4Converter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/INotifyPropertyChanging.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaConstants.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_ValidationEventArgs.cs" />
+    <Compile Include="Assets/Framework/Chartboost/Scripts/Chartboost.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/RadioGroup.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/CButton.cs" />
+    <Compile Include="Assets/Scripts/StoredValue.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_FloatParseHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_ReflectionDelegateFactory.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_ExpressionValueProvider.cs" />
+    <Compile Include="Assets/VideoAds.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/INativeExpressAdClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/CachedAttributeGetter.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonPause.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonTypeReflector.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/CollectionUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/DefaultSerializationBinder.cs" />
+    <Compile Include="Assets/Common/Scripts/InviteFriendsDialog.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JTokenEqualityComparer.cs" />
+    <Compile Include="Assets/Scripts/Main/Tile.cs" />
+    <Compile Include="Assets/Common/Scripts/LimitRectSize.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/NativeExpressAdView.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonPropertyCollection.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonReaderException.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_EnumValue.cs" />
+    <Compile Include="Assets/Common/Scripts/Movement/MoveOnCircle.cs" />
+    <Compile Include="Assets/Common/Scripts/CurrencyBallance.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Extras/CustomConverters/Vector4Converter.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonMusicToggle.cs" />
+    <Compile Include="Assets/Lib/PrefabEvolution/Sources/PELinkage.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonProperty.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonPrimitiveContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/PropertyChangingEventHandler.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JValue.cs" />
+    <Compile Include="Assets/Lib/Localization/Plugins/LocalizedTextMesh.cs" />
+    <Compile Include="Assets/Common/Scripts/Movement/SpawnAndMoveObjects.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonStringContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JTokenType.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_DefaultContractResolver.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/Utils.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/AdLoaderClient.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/CurrencyController.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonOpenDialog.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_SerializationBinder.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JEnumerable.cs" />
+    <Compile Include="Assets/Framework/Chartboost/CharboostService.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_EnumUtils.cs" />
+    <Compile Include="Assets/Common/Scripts/CCamera.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/CustomCreationConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Bson/RT_BsonObjectId.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_SchemaExtensions.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_XmlNodeConverter.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/NativeExpressAdClient.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/Dialog.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JConstructor.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/ThreadSafeStore.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_VersionConverter.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/InterstitialClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_FloatFormatHandling.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/Reward.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/PromoteController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/IsoDateTimeConverter.cs" />
+    <Compile Include="Assets/PopupBanner.cs" />
+    <Compile Include="Assets/Common/Scripts/Projectile.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/FirstSceneController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/OnErrorAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchema.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_DateTimeUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonStringContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonObjectAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/ListWrapper.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_StringEscapeHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonConvert.cs" />
+    <Compile Include="Assets/Common/Scripts/Movement/TweenArgs.cs" />
+    <Compile Include="Assets/Framework/ServiceManager/ServiceManager.cs" />
+    <Compile Include="Assets/Scripts/Main/Piece.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_KeyValuePairConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_CollectionWrapper.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_ExpressionReflectionDelegateFactory.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonArrayContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonDictionaryContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/ErrorContext.cs" />
+    <Compile Include="Assets/Common/Scripts/NotificationAlert.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/QuitGameDialog.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_IsoDateTimeConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JTokenType.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_MethodCall.cs" />
+    <Compile Include="Assets/Common/Scripts/MultiPooler.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Bson/BsonToken.cs" />
+    <Compile Include="Assets/Common/Scripts/Shooter.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/AdMobManager/Scripts/AdRequest.cs" />
+    <Compile Include="Assets/Common/Scripts/InvitableFriend.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonDynamicContract.cs" />
+    <Compile Include="Assets/Common/Scripts/Photo.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonSerializerInternalBase.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaBuilder.cs" />
+    <Compile Include="Assets/Common/Scripts/DevelopmentOnly.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_NullValueHandling.cs" />
+    <Compile Include="Assets/Scripts/ButtonWorld.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/GoogleMobileAdsClientFactory.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/PropertyChangingEventArgs.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/AdPosition.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_Formatting.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/InterstitialAd.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonSerializerSettings.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonMoreGames.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonContainerAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JValue.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/CollectionWrapper.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaGenerator.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/UndefinedSchemaIdHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/ErrorEventArgs.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/ValidationEventHandler.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonConverterAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonPropertyCollection.cs" />
+    <Compile Include="Assets/Scripts/Controller/WorldController.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/IAdLoaderClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/JavaScriptDateTimeConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_ReferenceLoopHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerInternalWriter.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonGotoScene.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchema.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JArray.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonIgnoreAttribute.cs" />
+    <Compile Include="Assets/Scripts/HintText.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonPropertyAttribute.cs" />
+    <Compile Include="Assets/Scripts/CompleteDialog.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonISerializableContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ReferenceLoopHandling.cs" />
+    <Compile Include="Assets/Lib/Pixelplacement/iTweenPath/iTweenPath.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/Externs.cs" />
+    <Compile Include="Assets/Framework/Chartboost/Scripts/CBExternal.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/AdMobManager/Scripts/GoogleMobileAdsDemoScript.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonSerializationException.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaModel.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/JsonDateTimeSerializationMode.cs" />
+    <Compile Include="Assets/Common/Scripts/Toast.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/DefaultContractResolver.cs" />
+    <Compile Include="Assets/Common/Scripts/ButtonSound.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_ReflectionUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Bson/RT_BsonType.cs" />
+    <Compile Include="Assets/Common/Scripts/Movement/Rb2DFollowTarget.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonReaderException.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonConverterAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_Required.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JToken.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonContract.cs" />
+    <Compile Include="Assets/Lib/PrefabEvolution/Sources/PEHideFlagsUtility.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/TypeNameHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_MissingMemberHandling.cs" />
+    <Compile Include="Assets/Lib/PrefabEvolution/Sources/PEExposedProperties.cs" />
+    <Compile Include="Assets/Scripts/Main/LevelPrefs.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/EnumValues.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JObject.cs" />
+    <Compile Include="Assets/Common/Scripts/QuitGame.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Bson/BsonWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JToken.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/DynamicReflectionDelegateFactory.cs" />
+    <Compile Include="Assets/Common/Scripts/JobWorker.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonTextReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/BsonObjectIdConverter.cs" />
+    <Compile Include="Assets/Scripts/MonoUtils.cs" />
+    <Compile Include="Assets/Common/Scripts/Sound.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/JavaScriptUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonObjectAttribute.cs" />
+    <Compile Include="Assets/Scripts/GiftDialog.cs" />
+    <Compile Include="Assets/Framework/Chartboost/Scripts/CBJSON.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/IInterstitialClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/IReferenceResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_BidirectionalDictionary.cs" />
+    <Compile Include="Assets/Common/Scripts/Math3D.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/Gender.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonSerializer.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_MathUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JRaw.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/NotifyCollectionChangedEventHandler.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JPath.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JPropertyDescriptor.cs" />
+    <Compile Include="Assets/Framework/Chartboost/Scripts/CBSettings.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/AdSize.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_FormatterAssemblyStyle.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/RegexConverter.cs" />
+    <Compile Include="Assets/Scripts/Const.cs" />
+    <Compile Include="Assets/Common/Scripts/GridTile.cs" />
+    <Compile Include="Assets/ZeichenKraftwerk/CryptoPlayerPrefs/CryptoPlayerPrefsX.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_DynamicProxyMetaObject.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/SchemaExtensions.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/KeyValuePairConverter.cs" />
+    <Compile Include="Assets/Common/Scripts/CollisionTrigger.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonConstructorAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_StringReference.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/Android/CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/CamelCasePropertyNamesContractResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaModelBuilder.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_JavaScriptUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/IJEnumerable.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/AdMobManager/Scripts/AdMobManager.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/NotifyCollectionChangedEventArgs.cs" />
+    <Compile Include="Assets/Common/Scripts/Promote/Promotes.cs" />
+    <Compile Include="Assets/Scripts/ButtonLevel.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/BaseController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaNode.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/EnumValue.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JRaw.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/INotifyCollectionChanged.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JConstructor.cs" />
+    <Compile Include="Assets/Common/Scripts/Promote/Promote.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaGenerator.cs" />
+    <Compile Include="Assets/Common/Scripts/CProgress.cs" />
+    <Compile Include="Assets/Common/Scripts/Timer.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaNodeCollection.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonSerializerSettings.cs" />
+    <Compile Include="Assets/Common/Scripts/Reward.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/FaceController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/DateTimeUtils.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/LevelController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/DynamicValueProvider.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_TypeNameHandling.cs" />
+    <Compile Include="Assets/Lib/PrefabEvolution/Sources/PEPrefabScript.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_DynamicProxy.cs" />
+    <Compile Include="Assets/Common/Scripts/UICamera.cs" />
+    <Compile Include="Assets/Scripts/GameState.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/Base64Encoder.cs" />
+    <Compile Include="Assets/Common/Scripts/Movement/MoveOnLine.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_IValueProvider.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_DefaultSerializationBinder.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/Utils.cs" />
+    <Compile Include="Assets/Framework/Chartboost/Examples/ChartboostExample/ChartboostExample.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_DateParseHandling.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/CanvasRefiner.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JTokenWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/ObjectConstructor.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonTypeReflector.cs" />
+    <Compile Include="Assets/Common/Scripts/ClockText.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Required.cs" />
+    <Compile Include="Assets/Common/Scripts/PathedProjectileSpawner.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/ConvertUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Bson/BsonObjectId.cs" />
+    <Compile Include="Assets/Common/Scripts/DonotDestroyOnLoad.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Extras/CustomConverters/Vector3Converter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonObjectContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_UndefinedSchemaIdHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/LateBoundReflectionDelegateFactory.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_CamelCasePropertyNamesContractResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_StringBuffer.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JPropertyKeyedCollection.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/ValidationUtils.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ScreenFader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Bson/RT_BsonBinaryWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_CollectionUtils.cs" />
+    <Compile Include="Assets/Scripts/Main/Piece2.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaModelBuilder.cs" />
+    <Compile Include="Assets/Common/Scripts/Music.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/ButtonSoundToggle.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Linq/JTokenReader.cs" />
+    <Compile Include="Assets/Common/Scripts/SimpleJSON.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/NullValueHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/MiscellaneousUtils.cs" />
+    <Compile Include="Assets/Lib/Localization/Plugins/LocalizedAsset.cs" />
+    <Compile Include="Assets/Common/Scripts/FriendAvatar.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonToken.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/PromoteQuitDialog.cs" />
+    <Compile Include="Assets/Lib/Localization/Plugins/Language.cs" />
+    <Compile Include="Assets/Scripts/Preference.cs" />
+    <Compile Include="Assets/Scripts/Main/HintEffect.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Extras/CustomConverters/Vector2Converter.cs" />
+    <Compile Include="Assets/Lib/Localization/Plugins/LocalizationSettings.cs" />
+    <Compile Include="Assets/Common/Scripts/MoreLinq.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/AdRequest.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JTokenWriter.cs" />
+    <Compile Include="Assets/Common/Scripts/Cover.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_CachedAttributeGetter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonFormatterConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_DateTimeParser.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/AdMobManager/Scripts/AdmobBanner.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/BannerClient.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Api/BannerView.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaType.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Bson/RT_BsonToken.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Converters/StringEnumConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_ObjectCreationHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JContainer.cs" />
+    <Compile Include="Assets/Scripts/Controller/HomeController.cs" />
+    <Compile Include="Assets/Scripts/Controller/SelectLevelController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/MissingMemberHandling.cs" />
+    <Compile Include="Assets/Common/Scripts/VersionControl/ListPlatformGameVersion.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_JObject.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/CTextNumber.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_ReflectionValueProvider.cs" />
+    <Compile Include="Assets/Framework/AdMob&amp;UnityAds/UnityAdsManager/Demo/DemoUnityAds.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Utilities/StringBuffer.cs" />
+    <Compile Include="Assets/Common/Scripts/BackgroundChanger.cs" />
+    <Compile Include="Assets/Scripts/Utils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_JavaScriptDateTimeConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/ReflectionValueProvider.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonDictionaryContract.cs" />
+    <Compile Include="Assets/Common/Scripts/Achievement.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_WriteState.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Shims/DataMemberAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/LateBoundMetadataTypeAttribute.cs" />
+    <Compile Include="Assets/Common/Scripts/Movement/MoveOnPath.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Shims/WP8/FormatterAssemblyStyle.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerProxy.cs" />
+    <Compile Include="Assets/Common/Scripts/CMonoBehaviour.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Schema/JsonSchemaWriter.cs" />
+    <Compile Include="Assets/Common/Scripts/CUtils.cs" />
+    <Compile Include="Assets/Common/Scripts/CommonConst.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Platforms/iOS/NativeExpressAdClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_ConvertUtils.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonContainerContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Linq/RT_LinqExtensions.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/UpDownNumber.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaBuilder.cs" />
+    <Compile Include="Assets/Common/Scripts/Pooler.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonArrayContract.cs" />
+    <Compile Include="Assets/Common/Scripts/RowInviteFriends.cs" />
+    <Compile Include="Assets/Lib/Localization/Plugins/NGUILocalizeM2H.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerInternalBase.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_IReferenceResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_ErrorEventArgs.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Bson/BsonReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/JsonLinqContract.cs" />
+    <Compile Include="Assets/Scripts/Main/TileRegion.cs" />
+    <Compile Include="Assets/Common/Scripts/Controller/GuideController.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_CustomCreationConverter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonConstructorAttribute.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Bson/BsonBinaryWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/DefaultValueHandling.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/ObservableSupport/AddingNewEventHandler.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/Serialization/DefaultReferenceResolver.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/JsonWriterException.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerInternalReader.cs" />
+    <Compile Include="Assets/GoogleMobileAds/Common/ICustomNativeTemplateClient.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonTextReader.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_MemoryTraceWriter.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Converters/RT_DateTimeConverterBase.cs" />
+    <Compile Include="Assets/Common/Scripts/PathedProjectile.cs" />
+    <Compile Include="Assets/Common/Scripts/InstantiateObject.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/RT_JsonPosition.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Utilities/RT_TypeExtensions.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_JsonLinqContract.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/WinRT/Serialization/RT_ErrorContext.cs" />
+    <Compile Include="Assets/Common/Scripts/Dialog/OkDialog.cs" />
+    <Compile Include="Assets/Common/Scripts/UI/SnapScrollRect.cs" />
+    <Compile Include="Assets/Scripts/Main/GameLevel.cs" />
+    <Compile Include="Assets/Lib/JsonDotNet/Source/PreserveReferencesHandling.cs" />
+    <Compile Include="Assets/Scripts/DayAction.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll" />
+    <None Include="Assets/Lib/JsonDotNet/ReadMe.txt" />
+    <None Include="Assets/UnityAds/UnityEngine.Advertisements.Editor.dll" />
+    <None Include="Assets/UnityAds/UnityEngine.Advertisements.iOS.dll" />
+    <None Include="Assets/Lib/Localization/Resources/Languages/EN_Google Sheets.xml" />
+    <None Include="Assets/UnityAds/UnityEngine.Advertisements.Android.dll" />
+    <None Include="Assets/Lib/Localization/README.txt" />
+    <None Include="Assets/Lib/Localization/Resources/Languages/VI_Google Sheets.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ZKWCryptoPlayerPrefs">
+      <HintPath>Assets/Plugins/ZKWCryptoPlayerPrefs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7D90BDA1-428B-70B4-E63A-2C3E580FB545}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

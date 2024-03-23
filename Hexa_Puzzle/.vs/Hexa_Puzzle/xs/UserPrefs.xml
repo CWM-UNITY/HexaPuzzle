@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{1DD549F5-A2C8-98CD-771F-0ADD1705E568}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Common/Scripts/Editor/SortingLayersEditor.cs">
+    <Files>
+      <File FileName="Assets/Plugins/Pixelplacement/iTween/iTween.cs" Line="740" Column="3" />
+      <File FileName="Assets/Lib/Localization/Plugins/LocalizedAsset.cs" Line="36" Column="9" />
+      <File FileName="Assets/Common/Scripts/Editor/ParticleRendererSortingLayersEditor.cs" Line="16" Column="3" />
+      <File FileName="Assets/Common/Scripts/Editor/SortingLayersEditor.cs" Line="16" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hexa_Puzzle" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Common" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Editor" expanded="True">
+                    <Node name="SortingLayersEditor.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Lib" expanded="True">
+                <Node name="Localization" expanded="True">
+                  <Node name="Plugins" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Plugins" expanded="True">
+                <Node name="Pixelplacement" expanded="True">
+                  <Node name="iTween" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="94dd392e-f9cd-47de-9387-eca01fe37999" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
